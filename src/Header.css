@@ -5,3 +5,12 @@ a{
 a:hover{
   color:darkgrey;
 }
+
+.potato {
+  position: relative;
+}
+
+.NavLinks {
+  position: absolute;
+  right: 20px;
+}

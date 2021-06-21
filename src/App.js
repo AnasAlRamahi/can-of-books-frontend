@@ -11,7 +11,7 @@ import Login from "./Login";
 import { withAuth0 } from "@auth0/auth0-react";
 import MyFavouriteBooks from './MyFavoriteBooks';
 import Profile from './Profile';
- 
+  
 
 class App extends React.Component {
 
@@ -21,7 +21,7 @@ class App extends React.Component {
     return(
       <div>
         <Router>
-          <IsLoadingAndError>
+          {/* <IsLoadingAndError> */}
             <Header />
               <Switch>
                 <Route exact path="/">
@@ -35,7 +35,7 @@ class App extends React.Component {
                 </Route>
               </Switch>
             <Footer />
-          </IsLoadingAndError>
+          {/* </IsLoadingAndError> */}
         </Router>
       </div>
     )
