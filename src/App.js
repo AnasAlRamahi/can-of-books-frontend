@@ -21,7 +21,7 @@ class App extends React.Component {
     return(
       <div>
         <Router>
-          <IsLoadingAndError>
+          {/* <IsLoadingAndError> */}
             <Header />
               <Switch>
                 <Route exact path="/">
@@ -35,7 +35,7 @@ class App extends React.Component {
                 </Route>
               </Switch>
             <Footer />
-          </IsLoadingAndError>
+          {/* </IsLoadingAndError> */}
         </Router>
       </div>
     )
